@@ -27,7 +27,7 @@ class StoreTest(BaseTest):
         expected= {
 
             'id': None,
-            'name': "test",
+            'name': "Test",
             'items': []
         }
         self.assertDictEqual(store.json(), expected)
